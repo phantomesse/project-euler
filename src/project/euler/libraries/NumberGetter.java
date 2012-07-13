@@ -1,7 +1,5 @@
 package project.euler.libraries;
 
-import java.math.BigInteger;
-
 /**
  * Produces a number from a sequence.
  * 

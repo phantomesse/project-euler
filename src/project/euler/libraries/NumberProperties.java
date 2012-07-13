@@ -54,8 +54,8 @@ public class NumberProperties {
      * @return factorial of the number
      */
     public static long getFactorial(long number) {
-        if (number == 1)
-            return number;
+        if (number <= 1)
+            return 1;
         return number*getFactorial(number-1);
     }
     
@@ -66,6 +66,8 @@ public class NumberProperties {
      * @return number is prime or not
      */
     public static boolean isPrime(int number) {
+        if (number < 2)
+            return false;
         if (number == 2)
             return true;
         if (number%2 == 0)

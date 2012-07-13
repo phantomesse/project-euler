@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package project.euler.problems.problem50;
 
 import java.util.Arrays;
