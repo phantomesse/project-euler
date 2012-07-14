@@ -1,3 +1,5 @@
+package project.euler.old;
+
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.io.*;

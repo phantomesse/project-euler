@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author Lauren Zou
  */
 public class NumberProperties {
-    
+	
     /**
      * Gets the factors of a number.
      * 

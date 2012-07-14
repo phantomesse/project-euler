@@ -1,6 +1,5 @@
 package project.euler.problems.problem10;
 
-import java.math.BigInteger;
 import project.euler.Problem;
 import project.euler.libraries.NumberGetter;
 import project.euler.libraries.NumberProperties;
