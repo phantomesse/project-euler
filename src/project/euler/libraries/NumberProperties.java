@@ -60,6 +60,19 @@ public class NumberProperties {
     }
     
     /**
+     * Gets the factorial of a number.
+     * For example, the factorial of 5 is 5*4*3*2*1.
+     * 
+     * @param number number to get factorial of
+     * @return factorial of the number
+     */
+    public static BigInteger getFactorial(BigInteger number) {
+        if (number.equals(BigInteger.ONE))
+            return number;
+        return number.multiply(getFactorial(number.subtract(BigInteger.ONE)));
+    }
+    
+    /**
      * Checks if a number is prime.
      * 
      * @param number potential prime number
