@@ -19,7 +19,7 @@ public class Problem02 extends Problem {
         int index = 3; // the 3rd term of the Fibonacci sequence is the first even term
         int fibTerm;
         do {
-            fibTerm = NumberGetter.getFibonacciTerm(index);
+            fibTerm = (int) NumberGetter.getFibonacciTerm(index);
             if (fibTerm%2 == 0)
                 sum += fibTerm;
             index++;

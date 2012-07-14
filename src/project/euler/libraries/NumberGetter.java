@@ -13,7 +13,7 @@ public class NumberGetter {
      * @param index n
      * @return nth term where n is determined by the parameter index
      */
-    public static int getFibonacciTerm(int index) {
+    public static long getFibonacciTerm(int index) {
         if (index <= 1)
             return index;
         return getFibonacciTerm(index-1) + getFibonacciTerm(index-2);

@@ -66,7 +66,7 @@ public class projectEuler2
       int index = names.indexOf(name)+1;
       int sum = 0;
       for (int j = 0; j < name.length(); j++)
-        sum +=  (int)(name.charAt(j)) - 64;;
+        sum +=  (int)(name.charAt(j)) - 64;
       totalNameScore += index*sum;
     }
     System.out.println("Total Score: " + totalNameScore);
