@@ -88,26 +88,6 @@ public class NumberProperties {
     }
     
     /**
-     * Checks if a number is prime.
-     * 
-     * @param number potential prime number
-     * @return number is prime or not
-     */
-    public static boolean isPrime(int number) {
-        if (number < 2)
-            return false;
-        if (number == 2)
-            return true;
-        if (number%2 == 0)
-            return false;
-        for (int i = 3; i*i <= number; i += 2) {
-            if (number%i == 0)
-                return false;
-        }
-        return true;
-    }
-    
-    /**
      * Gets the prime factorization of a number. The int array returned will include duplicates.
      * 
      * @param number number to prime factorize

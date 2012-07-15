@@ -3,6 +3,7 @@ package project.euler.problems.problem30;
 import java.util.ArrayList;
 import project.euler.Problem;
 import project.euler.libraries.NumberProperties;
+import project.euler.libraries.PrimeNumbers;
 
 /**
  * How many circular primes are there below one million?
@@ -27,7 +28,7 @@ public class Problem35 extends Problem {
     }
     
     private boolean isCircularPrime(int number) {
-        if (!NumberProperties.isPrime(number))
+        if (!PrimeNumbers.isPrime(number))
             return false;
         ArrayList<Integer> numberArr = new ArrayList<Integer>();
         int numberCopy = number;
@@ -36,13 +37,13 @@ public class Problem35 extends Problem {
             numberCopy /= 10;
         }
         int newNumber = createNumberFromArrayList(numberArr);
-        if (!NumberProperties.isPrime(newNumber))
+        if (!PrimeNumbers.isPrime(newNumber))
             return false;
         
         for (int i = 0; i < (number+"").length(); i++) {
             numberArr = rotate(numberArr);
             newNumber = createNumberFromArrayList(numberArr);
-            if (!NumberProperties.isPrime(newNumber))
+            if (!PrimeNumbers.isPrime(newNumber))
                 return false;
         }
         

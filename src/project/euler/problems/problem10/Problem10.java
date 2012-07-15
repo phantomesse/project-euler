@@ -1,7 +1,7 @@
 package project.euler.problems.problem10;
 
 import project.euler.Problem;
-import project.euler.libraries.NumberProperties;
+import project.euler.libraries.PrimeNumbers;
 
 /**
  * Calculate the sum of all the primes below two million.
@@ -19,7 +19,7 @@ public class Problem10 extends Problem {
         long sum = 0;
         boolean[] primes = new boolean[LIMIT];
         for (int i = 2; i < primes.length; i++) {
-            if (NumberProperties.isPrime(i))
+            if (PrimeNumbers.isPrime(i))
                 sum += i;
         }
         setAnswer(sum);

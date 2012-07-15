@@ -1,7 +1,7 @@
 package project.euler.problems.problem30;
 
 import project.euler.Problem;
-import project.euler.libraries.NumberProperties;
+import project.euler.libraries.PrimeNumbers;
 
 /**
  * Find the sum of all eleven primes that are both truncatable from left to right and right to left.
@@ -19,7 +19,7 @@ public class Problem37 extends Problem {
         int truncatablePrimesFound = 0;
         int number = START_PRIME;
         while (truncatablePrimesFound < 11) {
-            if (NumberProperties.isPrime(number)) {
+            if (PrimeNumbers.isPrime(number)) {
                 if (isTruncatablePrime(number)) {
                     truncatablePrimesFound++;
                     sum += number;
@@ -39,7 +39,7 @@ public class Problem37 extends Problem {
         int number = prime;
         for (int i = 0; i < numberOfDigits-1; i++) {
             number /= 10;
-            if (!NumberProperties.isPrime(number))
+            if (!PrimeNumbers.isPrime(number))
                 return false;
         }
         
@@ -47,7 +47,7 @@ public class Problem37 extends Problem {
         String numberStr = prime + "";
         for (int i = 1; i < numberOfDigits; i++) {
             number = Integer.parseInt((numberStr).substring(i, numberOfDigits));
-            if (!NumberProperties.isPrime(number))
+            if (!PrimeNumbers.isPrime(number))
                 return false;
         }
         

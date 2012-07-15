@@ -1,7 +1,7 @@
 package project.euler.problems.problem01;
 
 import project.euler.Problem;
-import project.euler.libraries.NumberProperties;
+import project.euler.libraries.PrimeNumbers;
 
 /**
  * Find the 10001st prime.
@@ -19,7 +19,7 @@ public class Problem07 extends Problem {
         int index = 0;
         while (index < PRIME_INDEX) {
             number++;
-            if (NumberProperties.isPrime(number))
+            if (PrimeNumbers.isPrime(number))
                 index++;
         }
         setAnswer(number);
