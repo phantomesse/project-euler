@@ -9,7 +9,22 @@ import java.util.ArrayList;
  * @author Lauren Zou
  */
 public class NumberProperties {
-	
+    
+    /**
+     * Gets the sum of the proper divisors of a number.
+     * For example, the sum of the proper divisors of 28 is 1 + 2 + 4 + 7 + 14 = 28
+     * 
+     * @param number number to sum of proper divisors from
+     * @return sum of proper divisors
+     */
+    public static int getSumOfProperDivisors(int number) {
+        int sum = -number;
+        int[] factors = NumberProperties.getFactors(number);
+        for (int factor : factors)
+            sum += factor;
+        return sum;
+    }
+    
     /**
      * Gets the factors of a number.
      * 
