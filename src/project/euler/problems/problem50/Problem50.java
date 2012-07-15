@@ -5,7 +5,8 @@ import project.euler.Problem;
 import project.euler.libraries.PrimeNumbers;
 
 /**
- *
+ * Which prime, below one-million, can be written as the sum of the most consecutive primes?
+ * 
  * @author Lauren Zou
  */
 public class Problem50 extends Problem {
