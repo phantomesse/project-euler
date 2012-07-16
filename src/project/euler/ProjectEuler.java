@@ -1,6 +1,6 @@
 package project.euler;
 
-import project.euler.problems.problem10.Problem11;
+import project.euler.problems.problem40.Problem49;
 
 /**
  *
@@ -8,9 +8,10 @@ import project.euler.problems.problem10.Problem11;
  */
 public class ProjectEuler {
 
-    private static final Problem currentProblem = new Problem11();
+    private static final Problem currentProblem = new Problem49();
     
     public static void main(String[] args) {
+        System.out.println("Problem #" + currentProblem.getProblemNumber());
         System.out.println("Answer: " + currentProblem.getAnswer());
     }
 }

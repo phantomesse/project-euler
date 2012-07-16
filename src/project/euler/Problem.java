@@ -12,6 +12,7 @@ public class Problem {
 
     private int problemNumber;
     private String answer;
+    private static final String PATH = "project.euler.problems.problem";
     
     public Problem(int problemNumber) {
         this.problemNumber = problemNumber;
