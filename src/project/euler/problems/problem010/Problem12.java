@@ -1,4 +1,4 @@
-package project.euler.problems.problem10;
+package project.euler.problems.problem010;
 
 import project.euler.Problem;
 import project.euler.libraries.NumberGetter;

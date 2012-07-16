@@ -1,7 +1,7 @@
 package project.euler.problems.problem60;
 
 import project.euler.Problem;
-import project.euler.problems.problem10.Problem18;
+import project.euler.problems.problem010.Problem18;
 
 /**
  * Using an efficient algorithm find the maximal sum in the triangle?

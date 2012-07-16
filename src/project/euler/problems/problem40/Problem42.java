@@ -7,7 +7,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import project.euler.Problem;
 import project.euler.libraries.NumberGetter;
-import project.euler.problems.problem01.Problem08;
+import project.euler.problems.problem001.Problem08;
 
 /**
  * How many triangle words does the list of common English words contain?
