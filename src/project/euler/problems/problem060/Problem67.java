@@ -1,4 +1,4 @@
-package project.euler.problems.problem60;
+package project.euler.problems.problem060;
 
 import project.euler.Problem;
 import project.euler.problems.problem010.Problem18;
@@ -10,7 +10,7 @@ import project.euler.problems.problem010.Problem18;
  */
 public class Problem67 extends Problem {
 
-    private final String FILE = "src/project/euler/problems/problem60/problem67_triangle.txt";
+    private final String FILE = "src/project/euler/problems/problem060/problem67_triangle.txt";
 
     public Problem67() {
         super(67);

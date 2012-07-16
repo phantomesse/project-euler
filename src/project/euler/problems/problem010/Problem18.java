@@ -15,7 +15,7 @@ import project.euler.Problem;
  */
 public class Problem18 extends Problem {
 
-    private final String FILE = "src/project/euler/problems/problem10/problem18_triangle.txt";
+    private final String FILE = "src/project/euler/problems/problem010/problem18_triangle.txt";
 
     public Problem18() {
         super(18);

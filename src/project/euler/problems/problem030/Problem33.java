@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package project.euler.problems.problem30;
+package project.euler.problems.problem030;
 
 import project.euler.Problem;
 import project.euler.libraries.Fraction;

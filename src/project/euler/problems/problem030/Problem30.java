@@ -1,4 +1,4 @@
-package project.euler.problems.problem30;
+package project.euler.problems.problem030;
 
 import project.euler.Problem;
 

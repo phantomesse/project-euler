@@ -15,7 +15,7 @@ import project.euler.Problem;
  */
 public class Problem08 extends Problem {
     
-    private final String FILE = "src/project/euler/problems/problem01/problem08_number.txt";
+    private final String FILE = "src/project/euler/problems/problem001/problem08_number.txt";
     private final int CONSECUTIVE = 5;
     
     public Problem08() {

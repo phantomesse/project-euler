@@ -1,4 +1,4 @@
-package project.euler.problems.problem40;
+package project.euler.problems.problem040;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -16,7 +16,7 @@ import project.euler.problems.problem001.Problem08;
  */
 public class Problem42 extends Problem {
     
-    private final String FILE = "src/project/euler/problems/problem40/problem42_words.txt";
+    private final String FILE = "src/project/euler/problems/problem040/problem42_words.txt";
     
     public Problem42() {
         super(42);

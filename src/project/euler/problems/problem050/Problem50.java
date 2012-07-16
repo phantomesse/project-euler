@@ -1,4 +1,4 @@
-package project.euler.problems.problem50;
+package project.euler.problems.problem050;
 
 import java.util.ArrayList;
 import project.euler.Problem;

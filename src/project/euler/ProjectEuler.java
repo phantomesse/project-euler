@@ -1,6 +1,6 @@
 package project.euler;
 
-import project.euler.problems.problem40.Problem49;
+import project.euler.problems.problem040.Problem49;
 
 /**
  *
